@@ -58,7 +58,7 @@ async function product() {
     
    for(let i = 1; i < product.rating; i++){
       let star = document.createElement('img')
-      star.setAttribute('src', '../img/star.avif')
+      star.setAttribute('src', 'img/star.avif')
       star.classList.add('w-10')
       starDiv.append(star)
    }
