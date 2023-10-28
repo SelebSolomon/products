@@ -43,7 +43,7 @@ async function product() {
     
     div.classList.add('sm:w-50', 'md:w-80', 'mt-15', 'mb-15', 'shadow', 'mt-8', 'my-7', 'rounded-xl',  )
     btn.classList.add('border', 'border-green-700', 'rounded-full', 'py-3', 'px-8', 'animate-bounce', 'hover:bg-green-400', 'text-black')
-    img.classList.add('w-max', 'rounded-sm')
+    img.classList.add('w-min', 'rounded-sm')
     price.classList.add('line-through')
     btnboss.classList.add('flex', 'justify-center', 'my-8', 'font-bold')
     wrapDiv.classList.add('text-xl', 'font-bold', 'pl-5', 'mt-4')
@@ -70,7 +70,7 @@ async function product() {
 
 
    products.forEach(div => {
-    rootElement.classList.add('flex', 'flex-wrap', 'justify-center', 'gap-5') 
+    rootElement.classList.add('flex', 'flex-wrap', 'justify-center', 'gap-5', 'mx-3', 'md:mx-5',) 
     
    
     rootElement.append(div)
