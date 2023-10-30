@@ -92,7 +92,7 @@ async function product() {
 			wrapDiv.append(Name, price, percentDiv, stock);
 			btnboss.append(btn);
 			percentDiv.classList.add('flex', 'gap-2', 'items-center');
-			starDiv.classList.add('flex', 'bg-slate-50');
+			starDiv.classList.add('flex', 'bg-slate-50', 'pl-5');
 			div.append(img, wrapDiv, starDiv, btnboss);
 
 			for (let i = 1; i < product.rating; i++) {
