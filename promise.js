@@ -53,7 +53,6 @@ async function product() {
 			percent.innerText = `${product.discountPercentage}%`;
 
 			div.classList.add(
-				'sm:w-50',
 				'md:w-80',
 				'mt-15',
 				'mb-15',
@@ -107,9 +106,13 @@ async function product() {
 		products.forEach((div) => {
 			rootElement.classList.add(
 				'flex',
+            'flex-col',
+            'md:flex-row',
+            'items-center',
 				'flex-wrap',
 				'justify-center',
-				'gap-5'
+				'gap-5',
+            'px-7'
 			);
 
 			rootElement.append(div);
